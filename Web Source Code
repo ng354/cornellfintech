@@ -1,0 +1,684 @@
+# cornellfintech
+EnVent Web Code Source
+
+
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope itemtype="http://schema.org/WebPage"  class="touch-styles squarespace-damask">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- This is Squarespace. --><!-- sarah-miller-949s -->
+<base href="">
+<meta charset="utf-8" />
+<title>Envent</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="canonical" href="http://sarah-miller-949s.squarespace.com/"/>
+<meta property="og:site_name" content="Envent"/>
+<meta property="og:title" content="EnVent"/>
+<meta property="og:url" content="http://sarah-miller-949s.squarespace.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1000w"/>
+<meta itemprop="name" content="EnVent"/>
+<meta itemprop="url" content="http://sarah-miller-949s.squarespace.com/"/>
+<meta itemprop="thumbnailUrl" content="https://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1000w"/>
+<link rel="image_src" href="https://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1000w" />
+<meta itemprop="image" content="https://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1000w"/>
+<meta name="twitter:title" content="EnVent"/>
+<meta name="twitter:image" content="https://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1000w"/>
+<meta name="twitter:url" content="http://sarah-miller-949s.squarespace.com/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="" />
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-3fcae2eb643b86b6e0f8-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/commerce-8762d16334df0dae0842-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//static.squarespace.com/universal/styles-compressed/commerce-5687c3bc8354d0f172e5f4659bf4c501-min.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
+<script type="text/javascript" data-sqs-type="dynamic-assets-loader">(function() {(function(a){function d(a){-1!==a.indexOf(".js")?document.write('<script type="text/javascript" src="'+a+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+a+'" />')}try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,SQUARESPACE_ROLLUPS);return}}catch(e){console.error(e)}for(var c in a){if(a[c].js)for(var b=0;b<a[c].js.length;b++)d(a[c].js[b]);if(a[c].css)for(b=0;b<a[c].css.length;b++)d(a[c].css[b])}})(SQUARESPACE_ROLLUPS);
+})();</script>
+<script type="text/javascript" data-sqs-type="imageloader">(function() {var SQUARESPACE_SIZES=[2500,1500,1E3,750,500,300,100],IMAGE_LOADING_CLASS="loading",ImageLoader=new function(){this.load=function(a,b){function c(a,b,d){var c=new Image;c.onload=b;c.onerror=d;c.src=a}a.getDOMNode&&(a=a.getDOMNode());var d=this._getDataFromNode(a,b),e=!(!d.dimensions||!d.dimensions.width||!d.dimensions.height),l=d.load+"";if("false"===l)return!1;var g=d.mode;if(e&&("fit"==g||"fill"==g)){g=a.parentNode;if(!g)return console.error("Not doing anything, parentNode not found."),!1;if(!this.refresh(a,
+b,g))return!1}var n=this._intendToLoad(a,d);if("string"==typeof n&&"viewport"!==l){var m=this.getUrl(n,d),d=a.getAttribute("data-image-resolution");a.getAttribute("src")!==m&&this.isValidResolution(n,d)&&(a.onload=function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("data-image-resolution",n)},!a.getAttribute("src")&&-1===a.className.indexOf(IMAGE_LOADING_CLASS)&&(a.className+=(a.className?" ":"")+IMAGE_LOADING_CLASS),!a.getAttribute("src")&&e?a.setAttribute("src",
+m):c(m,function(){e?a.setAttribute("src",m):(a.setAttribute("data-image-dimensions",this.width+"x"+this.height),ImageLoader.load(a,b))},function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();a.setAttribute("src",m)}));return!0}return n};this.refresh=function(a,b,c){a.getDOMNode&&(a=a.getDOMNode());c&&c.getDOMNode&&(c=c.getDOMNode());c=c||a.parentNode;if(!c)return console.error("Not doing anything, parentNode not found."),!1;var d=this._getDataFromNode(a,b),e=c.offsetWidth,l=c.offsetHeight;
+b=d.mode;if("none"!=b){var g=d.dimensions.width,n=d.dimensions.height,m=g/n,q=e/l;if(d.fixedRatio)"fill"==b&&q>m||"fit"==b&&q<m?(h=100,k=100*(q/m),r=(100-k)*d.focalPoint.y,p=0):(h=100*(m/q),k=100,r=0,p=(100-h)*d.focalPoint.x),a.style.top=r+"%",a.style.left=p+"%",a.style.width=h+"%",a.style.height=k+"%";else{var f;"fill"===b?f=m>q?l/n:e/g:"fit"===b&&(f=m<q?l/n:e/g);!d.stretch&&"fit"==b&&1<f&&(f=1);var h=Math.ceil(g*f),k=Math.ceil(n*f);if(0===h||0===k)return!1;var p,r;"fill"===b?(p=Math.min(Math.max(e/
+2-h*d.focalPoint.x,e-h),0),r=Math.min(Math.max(l/2-k*d.focalPoint.y,l-k),0)):"fit"===b&&(f=d.fitAlignment,p=f.left?0:f.right?e-h:h<e?(e-h)/2:0,r=f.top?0:f.bottom?l-k:k<l?(l-k)/2:0,"inline"==this._getStyle(a,"display")&&(a.style.fontSize="0px"),this._resetAlt(a,function(){h-=a.offsetHeight-a.clientHeight;k-=a.offsetWidth-a.clientWidth}));a.style.top=Math.ceil(r)+"px";a.style.left=Math.ceil(p)+"px";a.style.width=Math.ceil(h)+"px";a.style.height=Math.ceil(k)+"px"}p=this._getStyle(c,"position");a.style.position=
+"relative"==p?"absolute":"relative";if("fill"==b&&(b=this._getStyle(c,"overflow"),!b||"hidden"!=b))c.style.overflow="hidden";return!0}};this._intendToLoad=function(a,b){function c(c,d){"none"===b.mode&&(a.style.width=null,a.style.height=null);var e=parseFloat(a.getAttribute(c)),f=parseFloat(e);if(!f||isNaN(f))e=g._getStyle(a,c),f=parseFloat(e);if(!f||isNaN(f))e=g._getStyle(a,"max-"+c,"max"+(c.substr(0,1).toUpperCase()+c.substr(1))),f=parseFloat(e);if(0===d||e)switch(g._stringType(e)){case "percentage":d=
+parseInt(e,10)/100*l["offset"+c.substr(0,1).toUpperCase()+c.substr(1)];break;case "number":d=parseInt(e,10)}!f&&0!==d&&!a.getAttribute("src")&&(d=0);return d}b=b||this._getDataFromNode(a);if(!b.source)return!1;var d=a.offsetWidth,e=a.offsetHeight,l=a.parentNode,g=this;this._resetAlt(a,function(){d=c("width",d);e=c("height",e)});0===d&&0===e?(d=b.dimensions.width,e=b.dimensions.height):0===d?d=this.getDimensionForValue("width",e,b):0===e&&(e=this.getDimensionForValue("height",d,b));"viewport"===b.load&&
+(a.style.width=Math.floor(d)+"px",a.style.height=Math.floor(e)+"px");return this.getSquarespaceSize(d,e,b)};this._getDataFromNode=function(a,b){b=b||{};var c={focalPoint:{x:0.5,y:0.5},dimensions:{width:null,height:null},mode:"none",fitAlignment:{center:!0},load:"true",stretch:!0,fixedRatio:!1};if(b.focalPoint)c.focalPoint=b.focalPoint;else{var d=a.getAttribute("data-image-focal-point");if(d&&(d=d.split(","))&&2==d.length)c.focalPoint={x:parseFloat(d[0]),y:parseFloat(d[1])}}if(b.dimensions)c.dimensions=
+b.dimensions;else if((d=a.getAttribute("data-image-dimensions"))&&(d=d.split("x"))&&2==d.length)c.dimensions={width:parseInt(d[0],10),height:parseInt(d[1],10)};b.mode?c.mode=b.mode:a.parentNode&&(d=a.parentNode.className,-1!==d.indexOf("content-fill")?c.mode="fill":-1!==d.indexOf("content-fit")&&(c.mode="fit"));if("fit"===c.mode&&a.parentNode&&(d=b.fitAlignment||a.getAttribute("data-alignment")||a.parentNode.getAttribute("data-alignment")))c.fitAlignment={top:-1!==d.indexOf("top"),left:-1!==d.indexOf("left"),
+center:-1!==d.indexOf("center"),right:-1!==d.indexOf("right"),bottom:-1!==d.indexOf("bottom")};if(b.load)c.load=b.load;else if(d=a.getAttribute("data-load"))c.load=d;if("undefined"!==typeof b.stretch)c.stretch=b.stretch;else if(d=a.getAttribute("data-image-stretch"))c.stretch="true"===d?!0:!1;c.source=b.source?b.source:a.getAttribute("data-src");if(c.source&&(-1!==c.source.indexOf("squarespace.com")||-1!==c.source.indexOf("squarespace.net"))&&"http:"===c.source.substr(0,5)&&"https"===window.location.protocol.substr(0,
+5))c.source=c.source.replace("http://","https://");if(b.fixedRatio)c.fixedRatio=b.fixedRatio;else if(d=a.getAttribute("data-fixed-ratio"))c.fixedRatio="true"==d;return c};this._stringType=function(a){return"string"===typeof a&&-1!==a.indexOf("%")?"percentage":isNaN(parseInt(a,10))?NaN:"number"};this._getStyle=function(a,b,c){var d;a.currentStyle?d=a.currentStyle[c||b]:window.getComputedStyle&&(d=document.defaultView.getComputedStyle(a,null).getPropertyValue(b));return d};this._isVisible=function(a){a=
+a.getBoundingClientRect();return 0<=a.left&&0<=a.top||0<=a.bottom&&0<=a.right||0<=a.left&&0<=a.bottom||0<=a.right&&0<=a.top};this.getSquarespaceSize=function(a,b,c){a=Math.max(b/(c.dimensions.height/c.dimensions.width),a);"undefined"===typeof app&&"number"===typeof window.devicePixelRatio&&(a*=window.devicePixelRatio);for(b=1;b<SQUARESPACE_SIZES.length&&!(a>SQUARESPACE_SIZES[b]);b++);return SQUARESPACE_SIZES[b-1]+"w"};this.getDimensionForValue=function(a,b,c){var d=c.dimensions.width;c=c.dimensions.height;
+return"width"==a?d/c*b:"height"==a?c/d*b:NaN};this.getUrl=function(a,b){var c=b.source;return a&&("/"==c[0]||-1!=c.indexOf("squarespace.com")||-1!=c.indexOf("squarespace.net"))?(-1===c.indexOf("format="+a)&&(c=c+(-1!==c.indexOf("?")?"&":"?")+"format="+a),c):b.source};this.isValidResolution=function(a,b){a=parseInt(a,10);b=parseInt(b,10);return isNaN(a)||isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var c=a.getAttribute("alt"),d=c&&0<c.length&&!a.getAttribute("src");if(d){var e=a.style.display;a.removeAttribute("alt");
+a.style.display="none";a.offsetHeight+0;a.style.display=e}b.call(this);d&&a.setAttribute("alt",c)};this.bootstrap=function(){var a=document.images;if(0<a.length)for(var b=0,c=a.length;b<c;b++)((a[b].hasAttribute?a[b].hasAttribute("data-image"):a[b].attributes["data-image"])||(a[b].hasAttribute?a[b].hasAttribute("data-src"):a[b].attributes["data-src"]))&&"false"!==(a[b].getAttribute?a[b].getAttribute("data-load"):a[b].attributes["data-load"])+""&&ImageLoader.load(a[b])}};window.ImageLoader=ImageLoader;
+window.YUI&&YUI.add("squarespace-imageloader",function(a){});
+})();</script>
+<script>Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-76e4bfcc3f9830beb388bae2002fbe6c-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-61e035ef4f449435f316-min.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-a66ea40bb2fa6babf67a-min.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-0081bda8bafd2e574bfc05218b33687d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-bc3df01691825bf5e5e9-min.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-4f5f0295adaea29b6466-min.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-a927c49923e7c2391bcac5621d13b4d1-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-a5ed18b730c91e7daea6-min.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-4834283632f9a04ac50ec2e8cf695502-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-4ad48bd8a5879746d81f-min.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-0081bda8bafd2e574bfc05218b33687d-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-859ce2a4ed06467972a2-min.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-672bc619c46eacd076f5-min.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-99b8d889559f20b16442-min.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-bb658543b4283f335502f712d3cf5696-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-e14cd1d587ed4a1fc917-min.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-0ae2f121c08b2c20281e-min.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-20abda00bc0e084a8bec-min.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-feb7768f9a9907b47ac689b118f3db8e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-440959726a4b1fc27a62-min.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-e708311fc6882737ee7a-min.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-578fb344ac92d6ab44d6030c1b952622-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-83bc7eee8f46a6f06f77-min.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-b5e2052fe27121e052bbe8ad40ba5c3e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-30f72490c673f0cf7a55-min.js"}},"pageType":1,"website":{"id":"5619b213e4b0fcd88ca1f402","identifier":"sarah-miller-949s","contentModifiedOn":1444566529863,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-14400000,"timeZoneOffset":-14400000,"timeZoneAbbr":"EDT","siteTitle":"Envent","siteTagLine":"Freedom to EnVent","siteDescription":"","location":{"mapZoom":12.0,"mapLat":40.7207559,"mapLng":-74.00076130000002,"markerLat":40.7207559,"markerLng":-74.00076130000002},"logoImageId":"5619db96e4b07ac6acf1d39a","shareButtonOptions":{"5":true,"4":true,"3":true,"8":true,"1":true,"7":true,"2":true,"6":true},"logoImageUrl":"//static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/","authenticUrl":"http://sarah-miller-949s.squarespace.com","baseUrl":"http://sarah-miller-949s.squarespace.com","typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false},"websiteSettings":{"id":"5619b213e4b0fcd88ca1f405","websiteId":"5619b213e4b0fcd88ca1f402","type":"Business","subjects":[],"country":"US","state":"NY","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"lastAgreedTermsOfService":2,"defaultPostFormat":"%y/%m/%d/%t","commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","homepageTitleFormat":"%s","collectionTitleFormat":"%c \u2014 %s","itemTitleFormat":"%i \u2014 %s","commentsEnabled":false,"contactPhoneNumber":"","allowSquarespacePromotion":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"paymentSettings":{},"expressCheckout":false,"useLightCart":false,"showNoteField":false,"currenciesSupported":["USD","CAD","GBP","AUD","EUR","CHF"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"orderConfirmationInjectCode":"","showCustomCheckoutForm":false,"enableMailingListOptInByDefault":true,"contactLocation":{"mapZoom":12.0,"mapLat":40.7207559,"mapLng":-74.00076130000002,"markerLat":40.7207559,"markerLng":-74.00076130000002},"businessName":"","businessId":"","stripeConnected":false,"isLive":false,"storeState":3},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"}},"websiteCloneable":false,"collection":{"title":"EnVent","id":"5619bb7fe4b0cf5700fe61a0","fullUrl":"/","type":1},"subscribed":false,"appDomain":"squarespace.com","secureDomain":"https://sarah-miller-949s.squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","design":"Slideshow","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-controls":"Both","gallery-design":"Grid","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","grid-aspect-ratio":"1:1 (Square)","gridSize":"350px","gridSpacing":"20px","headerPadding":"25px","homepage-index-nav":"Show On Scroll","logoWidth":"275px","product-gallery-auto-crop":"false","product-image-auto-crop":"true","siteTitleContainerWidth":"255px","slideshow-aspect-ratio":"16:9 (Widescreen)","slideshow-autoplay":"true","slideshow-transition":"Fade"},"templateId":"52e96934e4b0ea14d0f64568","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"539f2df6e4b0365dad751b5e","deleted":true},{"collectionId":"535813a6e4b0c3ad7382ee7a","deleted":true},{"collectionId":"535814f2e4b09312a902d906","deleted":true},{"collectionId":"535817d6e4b0950857ff2550","deleted":true},{"collectionId":"535827a9e4b04e172ce35ea9","deleted":true},{"collectionId":"53593b44e4b05b142a061dc8","deleted":true},{"collectionId":"53343fb0e4b033999bd7af62","deleted":true},{"collectionId":"53974b97e4b04c5c0976f862","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}}; SquarespaceFonts.loadViaContext(); Squarespace.load(window); </script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://sarah-miller-949s.squarespace.com/enventure?format=RSS" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:600,600italic,700normal,700italic,100,400,200,200italic,500,700,300,300italic"/>
+<!--[if gte IE 9]> <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&part=4"/><![endif]-->
+<!--[if lt IE 9]><script src="//static.squarespace.com"></script><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&noMedia=true&part=1"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&noMedia=true&part=2"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&noMedia=true&part=3"/><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false&noMedia=true&part=4"/><![endif]-->
+<!--[if !IE]> --><link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/5619b213e4b0fcd88ca1f402/34/52e96934e4b0ea14d0f64568/5619b213e4b0fcd88ca1f409/1032-05142015/1444559562083/site.css?&filterFeatures=false"/><!-- <![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script><!-- End of Squarespace Headers -->
+    <script>/* Must be below squarespace-headers */(function(){var touchTest="ontouchstart"in window||navigator.msMaxTouchPoints;if(!touchTest){with(document.documentElement){className=className.replace(new RegExp("touch-styles"),"")}}})()</script>
+  </head>
+  
+  <body id="collection-5619bb7fe4b0cf5700fe61a0" class="transparent-header  expand-homepage-index-links homepage-index-nav-show-on-scroll show-page-title index-section-separation-alternating-background design-slideshow grid-aspect-ratio-11-square grid-max-columns-four slideshow-aspect-ratio-169-widescreen slideshow-transition-fade slideshow-autoplay gallery-controls-both gallery-controls-color-light  meta-priority-date hide-entry-author  pre-footer-content-custom   show-category-navigation gallery-design-grid aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   product-list-titles-under product-list-alignment-center product-item-size-11-square product-image-auto-crop product-gallery-size-11-square  show-product-price show-product-item-nav product-social-sharing  event-show-past-events event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link     hide-opentable-icons opentable-style-dark newsletter-style-dark small-button-style-solid small-button-shape-pill medium-button-style-outline medium-button-shape-rounded large-button-style-solid large-button-shape-square button-style-solid button-corner-style-pill native-currency-code-usd collection-type-index collection-layout-default collection-5619bb7fe4b0cf5700fe61a0 homepage view-list mobile-style-available logo-image has-banner-image index-page collection-enventure">
+
+    <div id="site">
+
+      <input type="checkbox" name="mobile-nav-toggle" id="mobileNavToggle" class="mobile-nav-toggle-box hidden" />
+
+      <div id="overlayNav">
+        <div id="mobileNavWrapper" class="nav-wrapper">
+  <nav id="mobileNavigation">
+    
+      
+        
+          
+            
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#home-section">
+                      Mission
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#howitworks-section">
+                      How It Works
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#partners-section">
+                      Partners
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#aboutus-section">
+                      About Us
+                    </a>
+                  </div>
+                  
+                
+              
+            
+            <div class="index base">
+              <a href="/">
+                EnVent
+              </a>
+            </div>
+          
+        
+      
+
+    
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <header id="header" role="banner">
+        <div class="header-inner">
+          <div id="logoWrapper" class="title-logo-wrapper" data-content-field="site-title">
+            
+              <h1 id="logoImage" class="tmpl-loading logo-image"><a href="/"><img src="//static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619db96e4b07ac6acf1d39a/1444566529863/?format=1500w" alt="Envent" /></a></h1>
+            
+          </div><!-- comment the linebreak between these two elements because science
+          --><label for="mobileNavToggle" class="mobile-nav-toggle-label show-on-scroll-mobile"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><!-- comment the linebreak between these two elements because science
+          --><div id="headerNav" class="tmpl-loading" ><div id="mainNavWrapper" class="nav-wrapper show-on-scroll">
+  <nav id="mainNavigation" data-content-field="navigation" >
+    
+      
+        
+          
+            
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#home-section">
+                      Mission
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#howitworks-section">
+                      How It Works
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#partners-section">
+                      Partners
+                    </a>
+                  </div>
+                  
+                
+              
+                
+                  
+                  <div class="index home">
+                    <a href="/#aboutus-section">
+                      About Us
+                    </a>
+                  </div>
+                  
+                
+              
+            
+            <div class="index base active">
+              <a href="/">
+                EnVent
+              </a>
+            </div>
+          
+        
+      
+
+    
+  </nav>
+</div>
+<!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+<style>.mobile-nav-toggle-label { display: inline-block; }</style>
+
+
+</div>
+        </div>
+      </header>
+
+      <div id="siteWrapper" class="clearfix">
+
+        <!-- Banner -->
+        
+          
+            
+              <!-- nothing to see here, move along -->
+            
+          
+        
+
+        
+        
+
+        <main id="page" role="main">
+          <div id="content" class="main-content" data-content-field="main-content" data-collection-id="5619bb7fe4b0cf5700fe61a0" >
+
+            
+              
+
+              
+            
+
+           <!-- Create index sections -->
+
+  
+  <div id="home-section" class="index-section page" data-url-id="home" data-collection-id="5619dab7e4b0b6c333713e36"
+    data-edit-main-image="Background" 
+  >
+    <div class="index-section-wrapper has-main-image">
+
+      <!-- For Pages -->
+
+      
+        
+        <div class="index-section-image content-fill">
+          <img data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619ea37e4b06a4398812ddf/1444538939031/sparkler.jpeg" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619ea37e4b06a4398812ddf/1444538939031/sparkler.jpeg" data-image-dimensions="3936x2624" data-image-focal-point="0.4786096256684492,0.38" alt="sparkler.jpeg"  data-load="viewport"/>
+        </div>
+        <div class="index-image-overlay"></div>
+        
+        <div class="content page-content has-main-image tmpl-loading" id="home-page" data-url-id="home">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1444556342354" id="page-5619dab7e4b0b6c333713e36"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_18_1444537720478_5069"><div class="sqs-block-content"><h1 class="text-align-center"><span style="font-size:56px">Let us refinance your debt so you can have the freedom to invent your future.</span></h1></div></div></div></div></div>
+          </div>
+        </div>
+      
+
+      <!-- For Galleries -->
+
+      
+
+      <!-- For Albums -->
+
+      
+
+    </div>
+  </div>
+  
+  <div id="howitworks-section" class="index-section no-main-image page" data-url-id="howitworks" data-collection-id="5619b7fde4b01839b1bcd3d5"
+    data-edit-main-image="Background" 
+  >
+    <div class="index-section-wrapper">
+
+      <!-- For Pages -->
+
+      
+        
+        <div class="content page-content" id="howitworks-page" data-url-id="howitworks">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1444566529862" id="page-5619b7fde4b01839b1bcd3d5"><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_26_1444542392186_55765"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-10 span-10"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_2_1444542392186_6226"><div class="sqs-block-content"><h2>Traditional fixed student loan models can cause early financial stress and keep students from pursuing the career paths they want - we believe they deserve better.</h2><h2>By working with the student's employer,&nbsp;<strong>∑</strong><strong>nVent </strong>will absorb a student's initial debt in full. We then offer a debt payment structure that's more suited to post-graduates. This is a fixed percentage payment deducted from their monthly earnings, which will eventually match our initial investment in their early career growth.</h2></div></div><div class="row sqs-row"><div class="col sqs-col-5 span-5"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="63.93034825870647" data-block-type="5" id="block-yui_3_17_2_6_1444566009360_28784"><div class="sqs-block-content">
+	<div class="image-block-outer-wrapper layout-caption-below ">
+	
+		<div class="intrinsic" style="max-width:1055.0px;">
+			
+				<div style="padding-bottom:63.93034744262695%;" class="image-block-wrapper   has-aspect-ratio" data-description="">
+					<noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a54fbe4b0a09ae2fef6b0/1444566268279/"  /></noscript><img class="thumb-image" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a54fbe4b0a09ae2fef6b0/1444566268279/" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a54fbe4b0a09ae2fef6b0/1444566268279/" data-image-dimensions="1055x677" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="561a54fbe4b0a09ae2fef6b0" data-type="image" />
+				</div>
+			
+
+			
+
+		</div>
+	
+	</div>
+</div></div></div><div class="col sqs-col-5 span-5"><div class="sqs-block image-block sqs-block-image" data-aspect-ratio="63.681592039801" data-block-type="5" id="block-yui_3_17_2_6_1444566009360_9663"><div class="sqs-block-content">
+	<div class="image-block-outer-wrapper layout-caption-below ">
+	
+		<div class="intrinsic" style="max-width:1040.0px;">
+			
+				<div style="padding-bottom:63.68159103393555%;" class="image-block-wrapper   has-aspect-ratio" data-description="">
+					<noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a544ce4b0ae8c3b9c28c4/1444566093412/"  /></noscript><img class="thumb-image" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a544ce4b0ae8c3b9c28c4/1444566093412/" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/561a544ce4b0ae8c3b9c28c4/1444566093412/" data-image-dimensions="1040x665" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="561a544ce4b0ae8c3b9c28c4" data-type="image" />
+				</div>
+			
+
+			
+
+		</div>
+	
+	</div>
+</div></div></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_8_1444566009360_15310"><div class="sqs-block-content"><h2 id="yui_3_17_2_8_1444566009360_12165">For each student, we determine case-by-case rates through analysis of their personal data,&nbsp;education, and job history. What's more? We'll charge rates proportional to your salary growth - allowing to spend more money on the important things early on for a better kickstart on post-graduate life. Talk about work-life balance.</h2></div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_6_1444566009360_9050"><div class="sqs-block-content"><hr /></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_7_1444542392186_47929"><div class="sqs-block-content"><h3 class="text-align-center">Why <strong>∑nVent</strong>?</h3></div></div><div class="sqs-block gallery-block sqs-block-gallery" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:&quot;561a210de4b07e497b464597&quot;,&quot;design&quot;:&quot;grid&quot;,&quot;aspectRatio&quot;:null,&quot;square-thumbs&quot;:false,&quot;aspect-ratio&quot;:&quot;standard&quot;,&quot;thumbnails-per-row&quot;:3,&quot;padding&quot;:0,&quot;lightbox&quot;:false,&quot;collectionId&quot;:&quot;561a22e4e4b06a439881bb5a&quot;,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;561a22e4e4b06a439881bb5a&quot;&#125;" data-block-type="8" id="block-yui_3_17_2_26_1444542392186_44614"><div class="sqs-block-content"><div class="
+  sqs-gallery-container
+  sqs-gallery-block-grid
+  sqs-gallery-aspect-ratio-standard
+  sqs-gallery-thumbnails-per-row-3
+  
+  
+
+  
+  
+  
+  clear
+">
+  <div class="sqs-gallery">
+    
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b01839b1be41ba/1444556234988/Icon_Target.png"  alt="Icon_Target.png"  /></noscript><img class="thumb-image" alt="Icon_Target.png" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b01839b1be41ba/1444556234988/Icon_Target.png" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b01839b1be41ba/1444556234988/Icon_Target.png" data-image-dimensions="325x400" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="561a2dcae4b01839b1be41ba" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b0af517e5b7acd/1444556234981/icon_cc.png"  alt="icon_cc.png"  /></noscript><img class="thumb-image" alt="icon_cc.png" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b0af517e5b7acd/1444556234981/icon_cc.png" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2dcae4b0af517e5b7acd/1444556234981/icon_cc.png" data-image-dimensions="325x400" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="561a2dcae4b0af517e5b7acd" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2c1fe4b0cbb5768683f7/1444555807869/Icon_10.png"  alt="Icon_10.png"  /></noscript><img class="thumb-image" alt="Icon_10.png" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2c1fe4b0cbb5768683f7/1444555807869/Icon_10.png" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/561a22e4e4b06a439881bb5a/561a2c1fe4b0cbb5768683f7/1444555807869/Icon_10.png" data-image-dimensions="325x400" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="561a2c1fe4b0cbb5768683f7" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+    
+  </div>
+
+  
+
+</div>
+
+
+
+
+<style type="text/css" id="design-grid-css">
+#block-yui_3_17_2_26_1444542392186_44614 .sqs-gallery-block-grid { margin-right: -0px; }
+#block-yui_3_17_2_26_1444542392186_44614 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 0px; margin-bottom: 0px; }
+</style>
+
+</div></div></div><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_26_1444542392186_57148"><div class="sqs-block-content">&nbsp;</div></div></div></div><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-yui_3_17_2_3_1444556367511_8853"><div class="sqs-block-content"><hr /></div></div></div></div><div class="row sqs-row"><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="186.79245283018867" data-block-type="21" id="block-yui_3_17_2_2_1444554534929_36161"><div class="sqs-block-content">&nbsp;</div></div></div><div class="col sqs-col-10 span-10"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_3_1444556367511_13961"><div class="sqs-block-content">
+<div class="sqs-block-button-container--center">
+	<a href="/my-savings" class="sqs-block-button-element--large sqs-block-button-element" >How Much Can I Save?</a>
+</div></div></div></div><div class="col sqs-col-1 span-1"><div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="173.58490566037736" data-block-type="21" id="block-yui_3_17_2_2_1444554534929_15247"><div class="sqs-block-content">&nbsp;</div></div></div></div></div>
+          </div>
+        </div>
+      
+
+      <!-- For Galleries -->
+
+      
+
+      <!-- For Albums -->
+
+      
+
+    </div>
+  </div>
+  
+  <div id="partners-section" class="index-section no-main-image page" data-url-id="partners" data-collection-id="5619bac7e4b0af517e5a1131"
+    data-edit-main-image="Background" 
+  >
+    <div class="index-section-wrapper">
+
+      <!-- For Pages -->
+
+      
+        
+        <div class="content page-content" id="partners-page" data-url-id="partners">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1444539650404" id="page-5619bac7e4b0af517e5a1131"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_9_1444537988825_9667"><div class="sqs-block-content"><p>Our valued partners offer our student debt refinancing solution to recent-graduate employees. Through this partnership we enable students to pay off loans quicker and at more competitive rates, and give them the freedom to design their own career path.</p></div></div><div class="sqs-block gallery-block sqs-block-gallery" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;design&quot;:&quot;grid&quot;,&quot;aspectRatio&quot;:null,&quot;square-thumbs&quot;:false,&quot;aspect-ratio&quot;:&quot;square&quot;,&quot;thumbnails-per-row&quot;:4,&quot;padding&quot;:20,&quot;lightbox&quot;:false,&quot;collectionId&quot;:&quot;5619dcf3e4b02c7f026dd023&quot;,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5619dcf3e4b02c7f026dd023&quot;&#125;" data-block-type="8" id="block-yui_3_17_2_13_1444531156799_9021"><div class="sqs-block-content"><div class="
+  sqs-gallery-container
+  sqs-gallery-block-grid
+  sqs-gallery-aspect-ratio-square
+  sqs-gallery-thumbnails-per-row-4
+  
+  
+
+  
+  
+  
+  clear
+">
+  <div class="sqs-gallery">
+    
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619dea8e4b0ae8c3b9afce6/1444535976944/coven.jpg"  alt="coven.jpg"  /></noscript><img class="thumb-image" alt="coven.jpg" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619dea8e4b0ae8c3b9afce6/1444535976944/coven.jpg" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619dea8e4b0ae8c3b9afce6/1444535976944/coven.jpg" data-image-dimensions="366x155" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5619dea8e4b0ae8c3b9afce6" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df25e4b076f7054fabd3/1444536102140/bny.jpeg"  alt="bny.jpeg"  /></noscript><img class="thumb-image" alt="bny.jpeg" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df25e4b076f7054fabd3/1444536102140/bny.jpeg" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df25e4b076f7054fabd3/1444536102140/bny.jpeg" data-image-dimensions="498x192" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5619df25e4b076f7054fabd3" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df2ae4b076f7054fabea/1444536107174/capital.jpg"  alt="capital.jpg"  /></noscript><img class="thumb-image" alt="capital.jpg" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df2ae4b076f7054fabea/1444536107174/capital.jpg" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619df2ae4b076f7054fabea/1444536107174/capital.jpg" data-image-dimensions="2072x936" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5619df2ae4b076f7054fabea" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+
+        
+
+        
+
+        
+          
+            <div class="slide" data-type="image">
+              <div class="margin-wrapper">
+                <a
+                  
+                      
+                  
+
+                  class="image-slide-anchor content-fit"
+                >
+                  <noscript><img src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619e388e4b02c7f026de9ac/1444537224613/bloomberg.png"  alt="bloomberg.png"  /></noscript><img class="thumb-image" alt="bloomberg.png" data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619e388e4b02c7f026de9ac/1444537224613/bloomberg.png" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/5619dcf3e4b02c7f026dd023/5619e388e4b02c7f026de9ac/1444537224613/bloomberg.png" data-image-dimensions="1451x382" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5619e388e4b02c7f026de9ac" data-type="image" />
+                </a>
+                <div class="image-slide-title"></div>
+              </div>
+            </div>
+          
+
+          
+        
+
+      
+    
+  </div>
+
+  
+
+</div>
+
+
+
+
+<style type="text/css" id="design-grid-css">
+#block-yui_3_17_2_13_1444531156799_9021 .sqs-gallery-block-grid { margin-right: -20px; }
+#block-yui_3_17_2_13_1444531156799_9021 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
+</style>
+
+</div></div></div></div></div>
+          </div>
+        </div>
+      
+
+      <!-- For Galleries -->
+
+      
+
+      <!-- For Albums -->
+
+      
+
+    </div>
+  </div>
+  
+  <div id="aboutus-section" class="index-section page" data-url-id="aboutus" data-collection-id="5619bad6e4b0de0a924ac9ff"
+    data-edit-main-image="Background" 
+  >
+    <div class="index-section-wrapper has-main-image">
+
+      <!-- For Pages -->
+
+      
+        
+        <div class="index-section-image content-fill">
+          <img data-src="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619d60be4b0d3fe4c8eb9e3/1444533777863/city.jpeg" data-image="http://static1.squarespace.com/static/5619b213e4b0fcd88ca1f402/t/5619d60be4b0d3fe4c8eb9e3/1444533777863/city.jpeg" data-image-dimensions="4820x3213" data-image-focal-point="0.4625668449197861,0.66" alt="city.jpeg"  data-load="viewport"/>
+        </div>
+        <div class="index-image-overlay"></div>
+        
+        <div class="content page-content has-main-image tmpl-loading" id="aboutus-page" data-url-id="aboutus">
+          <div class="content-inner has-content">
+            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1444550884730" id="page-5619bad6e4b0de0a924ac9ff"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_10_1_1_1398457969656_64927"><div class="sqs-block-content">&nbsp;</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_8_1444542392186_10790"><div class="sqs-block-content"><h2>∑nVent is a student refinancing solution designed by Cornell students during Cornell's FinTech Hackathon in October, 2015.</h2></div></div></div></div></div>
+          </div>
+        </div>
+      
+
+      <!-- For Galleries -->
+
+      
+
+      <!-- For Albums -->
+
+      
+
+    </div>
+  </div>
+          </div>
+        </main>
+
+        <div id="preFooter">
+          <div class="pre-footer-inner with-custom">
+  <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1418681567150" id="preFooterBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1403260543132_3969"><div class="sqs-block-content"><nav class="sqs-svg-icon--list social-icon-alignment-center social-icons-color-white social-icons-size-large social-icons-shape-circle social-icons-style-border"></nav></div></div></div></div></div>
+</div>
+
+        </div>
+
+        <footer id="footer" role="contentinfo">
+          <div class="footer-inner">
+            <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">Back to Top</a></div></nav></div>
+            
+
+
+            
+            <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1444551335890" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_33_1444537720478_3770"><div class="sqs-block-content"><p class="text-align-center"> </p><p class="text-align-center"><span style="font-size:16px">©&nbsp;</span>Team ∑nvent</p><p class="text-align-center"><span style="font-size:small">Cornell Tech,&nbsp;</span><span style="font-size:small">111 8th Ave #302, New York, NY 10011</span></p><p class="text-align-center"> </p></div></div></div></div></div>
+          </div>
+        </footer>
+
+        
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://static1.squarespace.com/static/ta/52e968b5e4b04d2aa2a3bba3/1032/scripts/combo/?no-yui.js&no-hover-on-scroll.js&lazyload.js&sticky.js&centernav.js&index-gallery.js&site.js&helpers.js&authenticated.js"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <script type="text/javascript" data-sqs-type="imageloader-bootstraper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();</script>
+<script>Squarespace.afterBodyLoad(Y);</script>
+
+  </body>
+</html>
+
